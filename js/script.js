@@ -45,7 +45,7 @@ boton.addEventListener("click", function() {
 
     } else {
         mensaje.textContent = "El número es Mayor";
-        video.src = "img/triste.mp4";
+        video.src = "img/triste2.mp4";
         document.body.style.background = "#fff2d6";
         header.style.background = "#a43b28";
         footer.style.background = "#a43b28";
@@ -74,3 +74,4 @@ botonSonido.addEventListener("click", function() {
         icono.classList.add("fa-volume-xmark");
     }
 });
+
